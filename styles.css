@@ -1,3 +1,8 @@
+
+.navbar-toggler {
+    background-color: gray;
+}
+
 .nav-link {
     color: red;
     transition: color 0.3s ease;
