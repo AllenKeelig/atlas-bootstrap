@@ -20,3 +20,20 @@
 .nav-link:active {
     color: black;
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: gray; /* Sets the background color to gray */
+    width: 30px; /* Adjusts the width if needed */
+    height: 30px; /* Adjusts the height if needed */
+    border-radius: 50%; /* Optional: makes the icon round */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1; /* Ensures buttons are fully visible */
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: darkgray; /* Changes color on hover for better interaction */
+}
