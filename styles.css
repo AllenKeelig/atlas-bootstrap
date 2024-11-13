@@ -4,6 +4,10 @@
     border-color: gray;
 }
 
+.navbar {
+    justify-content: flex-start;
+}
+
 .nav-link {
     color: red;
     transition: color 0.3s ease;
