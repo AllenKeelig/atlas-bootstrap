@@ -50,7 +50,7 @@
 }
 
 .static-background {
-    background-image: url('Images/your-image.jpg');
+    background-image: url('Images/background.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
