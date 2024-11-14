@@ -51,12 +51,12 @@
 
 .static-background {
     background-image: url('Images/background.jpg');
-    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     height: 100vh;
     position: relative;
-    color: white;
+    min-height: 100vh;
+    z-index: -1;
 }
 
 .container {
