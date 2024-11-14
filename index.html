@@ -136,10 +136,10 @@
                             Select a Character
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#" onclick="selectCharacter('Blitzo')">Blitzo</a>
-                            <a class="dropdown-item" href="#" onclick="selectCharacter('Eddie')">Eddie</a>
-                            <a class="dropdown-item" href="#" onclick="selectCharacter('Nezuko')">Nezuko</a>
-                            <a class="dropdown-item" href="#" onclick="selectCharacter('Schnail')">Schnail</a>
+                            <a class="dropdown-item" href="#" onclick="selectCharacter('Blitzo', event)">Blitzo</a>
+                            <a class="dropdown-item" href="#" onclick="selectCharacter('Eddie', event)">Eddie</a>
+                            <a class="dropdown-item" href="#" onclick="selectCharacter('Nezuko', event)">Nezuko</a>
+                            <a class="dropdown-item" href="#" onclick="selectCharacter('Schnail', event)">Schnail</a>
                         </div>
                     </div>
                 
@@ -151,7 +151,8 @@
                 
                 <!-- I couldn't figure out how to do this without javascript, if I was supposed to... idk sue me... nah you'd probably just fail me... now I'm really nervous -->
                 <script>
-                    function selectCharacter(character) {
+                    function selectCharacter(character, event) {
+                        event.preventDefault();
                         let bio = '';
                         switch(character) {
                             case 'Blitzo':
