@@ -4,17 +4,9 @@ html, body {
 }
 
 .navbar-toggler-icon {
-    color: black; /* Set the icon color to black */
+    color: black;
 }
 
-.nav-link {
-    color: red;
-    transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-    color: blueviolet;
-}
 
 .nav-link:active {
     color: black;
