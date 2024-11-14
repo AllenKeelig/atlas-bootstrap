@@ -2,13 +2,9 @@ html, body {
     height: 100%;
     margin: 0;
 }
-.navbar-toggler {
-    background-color: gray;
-    border-color: gray;
-}
 
-.navbar {
-    justify-content: flex-start;
+.navbar-toggler-icon {
+    background-color: black; /* Set the icon color to black */
 }
 
 .nav-link {
@@ -73,10 +69,10 @@ body {
 
 /* Footer Styles */
 footer {
-    background-color: black; /* Black background for the footer */
-    color: white; /* White text color */
-    padding: 20px 0; /* Padding around the footer */
-    text-align: center; /* Center the text inside the footer */
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -87,27 +83,27 @@ footer {
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
-    margin: 0 auto; /* Center the container */
+    margin: 0 auto;
     padding: 0 20px;
 }
 
 .footer-left a {
-    color: white; /* White link color */
-    text-decoration: none; /* Remove underline */
+    color: white;
+    text-decoration: none;
 }
 
 .github-icon {
-    width: 40px; /* Set the size of the GitHub logo */
+    width: 40px;
     height: 40px;
     transition: opacity 0.3s ease;
 }
 
 .github-icon:hover {
-    opacity: 0.8; /* Slight fade effect when hovering over the GitHub logo */
+    opacity: 0.8;
 }
 
 .footer-right p {
-    margin: 0; /* Remove default margin */
+    margin: 0;
     font-size: 14px;
 }
 
