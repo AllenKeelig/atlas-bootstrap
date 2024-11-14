@@ -1,4 +1,7 @@
-
+html, body {
+    height: 100%;
+    margin: 0;
+}
 .navbar-toggler {
     background-color: gray;
     border-color: gray;
@@ -55,8 +58,8 @@
     background-position: center;
     height: 100vh;
     position: relative;
-    min-height: 100vh;
     background-attachment: fixed;
+    min-height: 100%;
 }
 
 .container {
