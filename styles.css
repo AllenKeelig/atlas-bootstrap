@@ -3,10 +3,96 @@ html, body {
     margin: 0;
 }
 
+.navbar-toggler-icon {
+    color: white;
+}
+
+
+.nav-link:active {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.carousel-inner {
+    height: 150px;
+}
+
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: darkgray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: darkgray;
+}
+
 body {
     background-image: url('Images/background.jpg');
     background-size: cover;
     background-position: center;
+    position: relative;
     background-attachment: fixed;
     min-height: 100%;
+}
+
+.container {
+    position: relative;
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left a {
+    color: white;
+}
+
+.github-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-right p {
+    margin: 0;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left {
+        margin-bottom: 10px;
+    }
 }
