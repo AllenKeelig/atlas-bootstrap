@@ -70,3 +70,55 @@ body {
     z-index: 2;
     padding: 20px;
 }
+
+/* Footer Styles */
+footer {
+    background-color: black; /* Black background for the footer */
+    color: white; /* White text color */
+    padding: 20px 0; /* Padding around the footer */
+    text-align: center; /* Center the text inside the footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px;
+}
+
+.footer-left a {
+    color: white; /* White link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.github-icon {
+    width: 40px; /* Set the size of the GitHub logo */
+    height: 40px;
+    transition: opacity 0.3s ease;
+}
+
+.github-icon:hover {
+    opacity: 0.8; /* Slight fade effect when hovering over the GitHub logo */
+}
+
+.footer-right p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left {
+        margin-bottom: 10px;
+    }
+}
