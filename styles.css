@@ -4,7 +4,7 @@ html, body {
 }
 
 .navbar-toggler-icon {
-    background-color: black; /* Set the icon color to black */
+    color: black; /* Set the icon color to black */
 }
 
 .nav-link {
