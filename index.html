@@ -13,6 +13,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div class="static-background">
@@ -59,21 +60,28 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="carousel-container mb-4" style="max-height: 150px;">
+                <div class="container my-4" style="max-height: 150px;">
                     <div id="quoteCarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active" style="background-image: url('Images/eddie/Eddie_slide.jpg');">
-                                <div class="carousel-caption d-none d-md-block"></div>
+                            <div class="carousel-item active" style="background-image: url('Images/eddie/Eddie_slide.jpg'); height: 150px; background-size: cover;">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <!-- No quote here -->
+                                </div>
                             </div>
-                            <div class="carousel-item" style="background-image: url('Images/nezuko/Nezuko_slide.jpg');">
-                                <div class="carousel-caption d-none d-md-block"></div>
+                            <div class="carousel-item" style="background-image: url('Images/nezuko/Nezuko_slide.jpg'); height: 150px; background-size: cover;">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <!-- No quote here -->
+                                </div>
                             </div>
-                            <div class="carousel-item" style="background-image: url('Images/blitzo/Blitzo_slide.jpg');">
-                                <div class="carousel-caption d-none d-md-block"></div>
+                            <div class="carousel-item" style="background-image: url('Images/blitzo/Blitzo_slide.jpg'); height: 150px; background-size: cover;">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <!-- No quote here -->
+                                </div>
                             </div>
-                            <div class="carousel-item" style="background-image: url('Images/schnail/Schnail_slide.jpg');">
-                                <div class="carousel-caption d-none d-md-block"></div>
+                            <div class="carousel-item" style="background-image: url('Images/schnail/Schnail_slide.jpg'); height: 150px; background-size: cover;">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <!-- No quote here -->
+                                </div>
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#quoteCarousel" role="button" data-slide="prev">
@@ -85,21 +93,20 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                </div>
+                </div>                
             </div>
         </div>
-
-        <footer class="footer bg-dark text-white py-4">
-            <div class="footer-container d-flex justify-content-between align-items-center container">
-                <div class="footer-left">
-                    <a href="https://github.com/AllenKeelig" target="_blank" class="text-white">
-                        <img src="Images/github.jpg" alt="GitHub" class="github-icon">
-                    </a>
-                </div>
-                <div class="footer-right">
-                    <p>&copy; 2024 Compiled by Allen Keeling</p>
-                </div>
-            </div>
-        </footer>
     </body>
+    <footer class="footer bg-dark text-white py-4">
+        <div class="footer-container d-flex justify-content-between align-items-center container">
+            <div class="footer-left">
+                <a href="https://github.com/AllenKeelig" target="_blank">
+                    <img src="Images/github.jpg" alt="GitHub" class="img-fluid w-25" style="max-width: 40px; height: auto;">
+                </a>                    
+            </div>
+            <div class="footer-right">
+                <p>&copy; 2024 Compiled by Allen Keeling</p>
+            </div>
+        </div>
+    </footer>
 </html>
