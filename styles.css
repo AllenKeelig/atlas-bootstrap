@@ -76,9 +76,11 @@ footer {
     color: white;
 }
 
-.github-icon {
+/* how did I fuck this up */
+a[href="https://github.com/AllenKeelig"] img {
     width: 40px;
     height: 40px;
+    object-fit: cover;
 }
 
 .footer-right p {
