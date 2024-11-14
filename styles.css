@@ -24,6 +24,10 @@ html, body {
     color: black;
 }
 
+h1 {
+    color: black;
+}
+
 .carousel-inner {
     height: 150px;
 }
