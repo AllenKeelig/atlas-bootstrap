@@ -52,11 +52,10 @@ html, body {
     background-color: darkgray;
 }
 
-.static-background {
+body {
     background-image: url('Images/background.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
     position: relative;
     background-attachment: fixed;
     min-height: 100%;
