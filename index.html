@@ -128,7 +128,7 @@
                     </div>
                 </div>
                 <div class="container my-4">
-                    <h2>Character Bios</h2>
+                    <h2 class="text-white">Character Bios</h2>
                 
                     <!-- Dropdown Menu -->
                     <div class="dropdown">
@@ -156,30 +156,28 @@
                         switch(character) {
                             case 'Blitzo':
                                 bio = `
-                                    <h3>Blitzo</h3>
-                                    <p>Blitzo is the founder and manager of I.M.P and is the main protagonist of Helluva Boss. Set in Hell with a warning card for "rampant demon horniness."</p>
+                                    <h3 class="text-white">Blitzo</h3>
+                                    <p class="text-white">Blitzo is the founder and manager of I.M.P and is the main protagonist of Helluva Boss. Set in Hell with a warning card for "rampant demon horniness."</p>
                                 `;
                                 break;
                             case 'Eddie':
                                 bio = `
-                                    <h3>Eddie</h3>
-                                    <p>Eddie is the shadow Forbidden Beast attached to Zato-ONE, granting him shadow manipulation abilities. They've killed each other before but are kinda friends now after having a nice vacation in Hell c:</p>
+                                    <h3 class="text-white">Eddie</h3>
+                                    <p class="text-white">Eddie is the shadow Forbidden Beast attached to Zato-ONE, granting him shadow manipulation abilities. They've killed each other before but are kinda friends now after having a nice vacation in Hell c:</p>
                                 `;
                                 break;
                             case 'Nezuko':
                                 bio = `
-                                    <h3>Nezuko</h3>
-                                    <p>Nezuko is the deuteragonist of Demon Slayer: Kimetsu no Yaiba. She is a demon and the younger sister of Tanjiro Kamado, one of the two remaining members of the Kamado family. Formerly human, she was attacked and transformed into a demon by Muzan Kibutsuji.</p>
+                                    <h3 class="text-white">Nezuko</h3>
+                                    <p class="text-white">Nezuko is the deuteragonist of Demon Slayer: Kimetsu no Yaiba. She is a demon and the younger sister of Tanjiro Kamado, one of the two remaining members of the Kamado family. Formerly human, she was attacked and transformed into a demon by Muzan Kibutsuji.</p>
                                 `;
                                 break;
                             case 'Schnail':
                                 bio = `
-                                    <h3>Schnail</h3>
-                                    <p>Blood for the blood god 'u'</p>
+                                    <h3 class="text-white">Schnail</h3>
+                                    <p class="text-white">Blood for the blood god 'u'</p>
                                 `;
                                 break;
-                            default:
-                                bio = `<p></p>`;
                         }
                         document.getElementById('characterContent').innerHTML = bio;
                     }
